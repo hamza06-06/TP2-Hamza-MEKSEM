@@ -1,4 +1,4 @@
-// Crée la classe Book
+
 
 
 class Book {
@@ -7,7 +7,7 @@ class Book {
     this.author = author;
   }
 
-  // une méthode getDetails retourne détails du livre
+  
 
 
   getDetails() {

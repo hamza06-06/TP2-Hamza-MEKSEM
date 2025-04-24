@@ -1,8 +1,8 @@
-//  Initialise la bibliothèque
+
 
 const library = new Library();
 
-// Fonction ajouter livre au bibliothèque
+
 
 function addBookToLibrary() {
   const title = document.getElementById('title').value;
@@ -17,11 +17,11 @@ function addBookToLibrary() {
   }
 }
 
-// Fonction lister tous les livres
+
 
 function listBooks() {
   const booksList = document.getElementById('booksList');
-  booksList.innerHTML = ''; // Réinitialiser la liste
+  booksList.innerHTML = ''; 
 
   library.books.forEach(book => {
     const li = document.createElement('li');
@@ -30,7 +30,6 @@ function listBooks() {
   });
 }
 
-// Fonction rechercher un livre par titre
 
 function findBook() {
   const title = document.getElementById('searchTitle').value;
